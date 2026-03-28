@@ -1,0 +1,102 @@
+customer_id,first_name,last_name,email,phone_number,address,city,country,postal_code,age,gender,registration_date,related_accounts
+1,Diana,Howe,helen45@example.net,+44115 4960455,90 Cox path,Carlyport,Zambia,S73 2LQ,54,Female,2016-10-06,"3855,3222"
+2,Caridad,Galán,jose-luis66@example.com,+34979 37 17 66,Vial de Catalina Torres 88 Apt. 16 ,Álava,Zambia,28995,77,Male,2010-08-31,"8169,8078"
+3,Ilenia,Felder,joana86@example.net,034 249 04 14,Scheideggerstrasse 9,Zollikofen,Pitcairn,4529,36,Male,2024-08-11,
+4,Marcello,Caccianemico,marina61@example.com,3617126891,"Borgo Ottino, 58",Sant'Agata Sul Santerno,Saint Lucia,80056,49,Female,2022-04-06,"8923,4494,9539"
+5,Alexandrie,Raymond,perezthierry@example.net,0534941047,"26, rue Royer",Delorme-sur-Blin,Nauru,80625,57,Male,2015-07-16,"8738,2203"
+6,Mercedes,Lorch,mansangela@example.com,02545 06652,Schinkestraße 180,Staffelstein,Montenegro,39106,71,Other,2013-09-28,
+7,Esther,Schaub,egfeller@example.com,+41 21 390 45 17,Seilerstrasse 6,Kreuzlingen,China,6458,62,Male,2021-06-04,"8105,9549,1838"
+8,Naomi,Steger,stockestelle@example.com,03568/80257014,Lucia-Hofstätter-Weg 30,Haag,China,5136,46,Male,2011-07-26,6204
+9,Leila,Liebelt,thorstenrenner@example.net,05812688983,Norma-Etzler-Straße 80,Herzberg,Kenia,18581,33,Other,2018-06-05,"2811,7818,6364"
+10,Arkadiusz,Fita,aniela93@example.net,505 831 506,ul. Korczaka 738,Tarnobrzeg,Djibouti,82-246,68,Other,2020-10-16,"5259,7716,8710"
+11,Aaron,Schweitzer,rebecca90@example.net,03582/31612240,Elisabeth-Kirchmair-Platz 8/7,Allentsteig,Botsuana,7369,64,Male,2021-10-27,"2043,5914,6422"
+12,Blanca,Castilla,tormobasilio@example.org,+34923 186 630,Avenida de Yaiza Morales 42 Piso 0 ,Valladolid,Tayikistán,23390,68,Female,2017-05-19,3080
+13,Michel,Lefort,andree87@example.com,0229731776,"4, rue Gabriel Besson",Étienne,Pitcairn (Îles),61285,21,Other,2011-10-22,8633
+14,Christian,Read,pkaur@example.com,(0306) 999 0345,Studio 97\nMorris road,Sophieview,Japan,N7E 0FH,38,Female,2013-07-11,"8502,2245,6386"
+15,Harry,Burgess,rwilliamson@example.net,+44(0)116 496 0197,8 Mitchell trail,Leighland,Somalia,L91 4HR,33,Other,2021-12-19,"3893,1322,8713"
+16,Primitiva,Valero,ssegura@example.net,+34972 994 776,Avenida de Regina Rebollo 62 Puerta 3 ,Pontevedra,Uruguay,04878,47,Female,2013-11-05,"1426,6613"
+17,Davide,Gross,hessalma@example.net,+41 81 072 95 96,Staufferstrasse 74,Brig-Glis,Vietnam,7632,23,Male,2012-02-12,9537
+18,Teófilo,Arenas,ipastor@example.org,+34 975 943 044,Pasadizo Tatiana Ferrando 106,Granada,Yemen,28285,34,Female,2017-03-15,"8248,2498"
+19,James,Barry,frankmorgan@example.org,(0191) 4960504,Studio 3\nWalton springs,Port Martinside,Saint Lucia,WV61 6YU,22,Female,2011-12-25,"2988,7919"
+20,Nicole,Wilmsen,boucseinanne-marie@example.com,+49(0) 632841211,Mangoldstraße 51,Weißenfels,Jersey,02773,80,Female,2022-05-04,6928
+21,Ligia,Villegas,fortunyvictor@example.net,+34888710707,Glorieta Jacinto Español 56,Lleida,Lituania,30547,61,Other,2011-05-03,"2801,4061"
+22,Meral,Winkler,muelichenmeinolf@example.net,(07061) 44038,Calogero-Weinhold-Ring 37,Zeulenroda,Georgien,26685,79,Female,2013-02-12,3089
+23,Babett,Schweitzer,gluebs@example.net,(06970) 322237,Grein Grothstraße 23,Bayreuth,Sonderverwaltungszone Hongkong,43460,37,Male,2025-07-15,"4712,2601,1766"
+24,Lando,Ceschi,sonia84@example.com,+39 3756850187,"Viale Baccio, 61 Piano 1",Santa Maria La Longa,Bermuda,34016,58,Male,2014-04-01,3859
+25,Marco,Vespucci,gangemiguido@example.net,04001284910,"Strada Fernanda, 2 Piano 2",Bruneck,Siria,36011,65,Male,2020-09-21,
+26,Sam,Mitchell,davidnoble@example.com,028 9018 0883,Flat 97n\nTracy island,Aliville,Turkmenistan,L06 4LT,74,Male,2025-04-17,"5002,9277"
+27,Theodor,Hänel,croht@example.org,(04378) 351710,Wernerweg 79,Ludwigslust,Trinidad und Tobago,54524,75,Male,2017-03-19,"7886,6558"
+28,Jules,Lebreton,mcharrier@example.com,0646439571,rue Aimé Ruiz,Bazin,Rép. Dém. du Congo,31221,59,Other,2012-03-19,
+29,Pasquale,Martin,heusertraugott@example.net,+49(0)7547 81569,Schleichring 7/9,Beeskow,Ecuador,03771,42,Other,2010-01-28,9990
+30,Maida,Kaltenböck,nikolaus58@example.org,+43 (0) 2236 15641142,Marcus-Zenz-Weg 99,Pöchlarn,Kaimaninseln,7413,65,Other,2020-11-23,"6792,7707"
+31,Monja,Paffrath,enohlmans@example.net,+49(0) 698480596,Sölzerstraße 624,Soltau,Jamaika,93527,58,Other,2013-12-07,"1371,5460,1696"
+32,Panfilo,Biagi,sasprucci@example.net,+39 3428851529,"Piazza Orsini, 67",Barrafranca,Pakistan,00179,77,Male,2021-09-16,4731
+33,Bertrand,Briand,dbriand@example.org,+33 (0)3 79 44 91 90,"52, boulevard Vincent Grenier",Sainte MauriceBourg,Bermudes (Les),55658,61,Female,2022-06-24,"2527,2352"
+34,Martha,Thanel,pdrewes@example.net,(01677) 08659,Maximilian-Beer-Ring 7/0,Koblenz,Honduras,41608,36,Other,2025-03-17,"7003,3224,1408"
+35,Calista,Molina,dquintero@example.net,+34871132529,Alameda Gabino Gomez 98 Piso 3 ,Lleida,Estonia,33983,41,Female,2019-06-29,"6321,1049"
+36,Georgette,Zimmermann,gasserdorothea@example.org,033 534 82 29,Rothstrasse 824,Wald,Antigua und Barbuda,2682,77,Female,2010-05-24,"2993,9228,1258"
+37,Wiktor,Szwaj,kajetantomaszkiewicz@example.com,+48 530 957 600,aleja Rolna 64/89,Konin,North Korea,48-942,55,Male,2019-06-26,
+38,Stefan,Dargacz,karinatoborek@example.net,+48 724 984 679,pl. Wypoczynkowa 69/63,Białystok,Samoa,51-577,48,Other,2023-10-08,"8849,3090,9370"
+39,Sabine,Léger,rochelorraine@example.com,+33 5 90 52 38 19,"72, rue de Lemoine",Ruiz-sur-Gilles,Monaco,75511,76,Other,2019-05-05,
+40,Lene,Scheel,georgiamohaupt@example.net,05435 22886,Rosalia-Etzler-Straße 1/4,Bruchsal,Tuvalu,85743,19,Female,2024-10-30,
+41,Sylwia,Laskus,kostekkornel@example.org,573 491 629,al. Słoneczna 742,Chojnice,Saint Lucia,88-258,39,Male,2018-09-03,7282
+42,Jasmine,Beck,dschiller@example.org,+43 561211113478,Stefanie-Kaspar-Weg 02,Hardegg,Guam,9812,59,Female,2014-03-08,"4869,7214,7909"
+43,Kristin,Schmid,ricardo43@example.net,055 179 98 08,Müllerstrasse 21,Worb,Amerikanisch-Ozeanien,5565,39,Female,2022-03-13,"2173,4299,6584"
+44,María Jesús,Mena,salazarjose-angel@example.net,+34944 280 607,Calle de Isidoro Velasco 61 Apt. 84 ,Zaragoza,Sudán del Sur,38732,67,Other,2016-10-09,"3253,4257"
+45,Lissy,Franke,hanns81@example.net,01282993974,Gröttnerplatz 5,Waldmünchen,Guinea-Bissau,91223,22,Other,2026-03-09,
+46,Marcantonio,Zola,antoniettaorengo@example.com,371319009,"Incrocio Solari, 46 Appartamento 87",Capitan Loreto,Jersey,18013,34,Female,2014-07-05,"3329,8596"
+47,Kurt,Ortmann,rhahn@example.com,+49 (0) 2776 758604,Georgia-Bonbach-Allee 078,Wolgast,Ukraine,41522,50,Male,2019-04-23,3115
+48,Fiona,Klotz,aschauer@example.net,+43 4719 64015 766,Hofingerplatz 96,Althofen,Iran,8436,37,Male,2013-06-05,2084
+49,Michał,Burchard,bartek18@example.org,+48 722 904 777,ulica Porzeczkowa 694,Koszalin,Kuwait,28-879,66,Female,2011-03-01,"8230,3178,5560"
+50,Liam,Hunt,pamelalowe@example.com,0161 4960376,47 Sean crossroad,Sandrashire,Zambia,L1U 7PJ,29,Female,2021-03-04,"7595,8202"
+51,Jennifer,Parkinson,william93@example.com,01632960913,Studio 77\nMelanie circle,Lake Charleston,Dominican Republic,LU5 2UN,23,Other,2011-03-02,
+52,Swen,Stadelmann,schachtkira@example.net,04020 369980,Peukertstr. 0,Gräfenhainichen,Irak,91028,79,Other,2022-06-19,"1399,6821,2870"
+53,Aimé,Dupré,zandre@example.org,+33 (0)3 10 93 76 94,rue de Chrétien,Allain,Macau,57543,71,Other,2014-06-26,"4966,7472,4384"
+54,Vincent,Clark,gibbsteresa@example.net,+4428 9018742,50 Ronald stravenue,Georgeland,Zimbabwe,M90 7NX,33,Male,2020-02-10,"6539,1806"
+55,Marcel,Marchal,christophejacques@example.net,+33 (0)4 69 26 98 26,"428, chemin Michelle Verdier",Arnaud,Zaïre,61373,69,Female,2014-07-03,5524
+56,Kristina,Plath,nellyhuhn@example.net,01674 41028,Thoralf-Kohl-Straße 9/2,Worbis,Turks- und Caicosinseln,68425,29,Other,2022-05-22,"4722,4580,2904"
+57,Esmeralda,Tur,machadoalbino@example.com,+34917779545,Pasadizo de Elisa Cases 35,Tarragona,Guinea,29365,75,Male,2021-06-23,
+58,Ranieri,Roccabonella,amicoleonetti@example.org,0574873134,"Piazza Gussoni, 75",Campese,Antille Olandesi,38028,19,Male,2025-11-02,"3106,9993,1106"
+59,Nevio,Hirt,tinakeller@example.org,034 718 11 36,Michelstrasse 24,Riehen,Jordanien,9233,52,Male,2022-01-06,"6208,1160,6729"
+60,Tobiasz,Frydel,wiktor69@example.com,+48 660 071 677,ul. Wiosenna 75,Łowicz,United States,66-141,25,Male,2025-05-31,"8620,8487,3422"
+61,Carl,Kruschwitz,lenilange@example.net,+49(0)2021038859,Sedat-Rädel-Weg 42,Stuttgart,Britisches Territorium im Indischen Ozean,65366,59,Other,2016-12-23,"7569,5323,2634"
+62,Alina,Vismara,ugussoni@example.org,0155081343,"Rotonda Pomponio, 94 Appartamento 0",Pantuliano,Gambia,10088,71,Female,2012-02-10,"7492,8034"
+63,Hans-Peter,Conradi,tseifert@example.org,+49(0)8496007366,Beckerweg 1/0,Döbeln,Niger,78279,26,Other,2020-10-10,"6962,5015,2063"
+64,Csaba,Erni,dbosshard@example.org,032 353 77 35,Portmannstrasse 167,Ittigen,Anguilla,3401,77,Female,2015-04-01,
+65,Agron,Hofmann,nadja59@example.net,+41 24 944 87 14,Hunzikerstrasse 41,Horw,Österreich,1675,48,Male,2011-01-17,"8982,5323"
+66,Paul-Heinz,Löchel,leokadia67@example.com,+49 (0) 4998 558579,Wulffplatz 7,Dachau,Bouvetinsel,01045,52,Other,2025-05-04,"4330,4403,5762"
+67,Igor,Giec,jwawak@example.org,504 597 546,plac Nowowiejska 535,Gorzów Wielkopolski,Spain,83-916,67,Male,2022-10-26,6815
+68,Geoffrey,Ward,joemiles@example.org,(020) 74960387,Studio 04R\nChamberlain street,East Mohammed,Italy,M7 7WA,73,Other,2011-10-14,
+69,Flavio,Montesano,pizzamanocarmelo@example.com,0566702051,"Piazza Bellocchio, 634 Piano 4",Rodano,Serbia,87041,57,Other,2010-05-30,3391
+70,Ida,Venditti,cpagliaro@example.org,0404523414,"Via Pellico, 32",Vilpia,Irlanda,20007,18,Female,2014-08-28,
+71,Jason,Carr,stevensonhayley@example.net,+44(0)118 496 0326,629 Lawrence cliff,Port Gerard,Macao,G7 8XY,53,Female,2022-04-22,
+72,Max,Fink,lino22@example.org,04315 62738 803,Aurelio-Mayer-Straße 29,Ebreichsdorf,Honduras,5682,46,Male,2020-12-27,2669
+73,Bernd-Dieter,van der Dussen,yasmin53@example.org,+49(0)6496 457516,Reisingstraße 928,Werdau,Ägypten,20178,69,Male,2015-10-20,9004
+74,Christophe,Delmas,laetitia85@example.org,+33 (0)5 33 02 91 57,"141, boulevard Gimenez",Blanc,Benin,19180,78,Female,2023-12-09,5809
+75,Stuart,Fitzgerald,zoerobinson@example.net,+44(0)191 496 0267,Flat 3\nMorgan canyon,Hilaryland,Sri Lanka,SG8R 4QA,63,Male,2014-09-04,
+76,Valérie,Lenoir,colettelebreton@example.org,+33 3 25 83 49 27,chemin Berger,Joseph,Hong Kong,22683,24,Male,2017-10-17,5591
+77,Eleonore,Bachmann,knechtarne@example.net,032 297 42 11,Bolligerstrasse 9,Zug,Antarktis,7997,57,Female,2024-03-22,4541
+78,Yusuf,Hölzenbecher,roman34@example.org,0226994995,Weinholdstr. 2/0,Auerbach,Uruguay,53593,68,Other,2012-07-12,
+79,Astrid,Le Roux,xpicard@example.com,+33 (0)4 74 27 71 23,"50, chemin Patricia Foucher",Techer,Libéria,92872,31,Other,2023-04-20,
+80,Donatello,Montessori,raimondicarla@example.net,+39 053626144,"Borgo Bonolis, 36",Ca' Rainati,Romania,12053,36,Female,2011-05-16,"4633,4496,8860"
+81,Benjamin,James,taylorgerard@example.org,(0117)4960847,Flat 0\nJoanne crescent,Williamsview,Zambia,E6 8JJ,79,Other,2014-01-01,2862
+82,Madlen,van der Dussen,brunhildjuettner@example.org,01464 346756,Wulfstraße 49,Rastatt,Neukaledonien,81607,62,Female,2020-08-13,"2929,7488"
+83,Jill,Andrews,irenemoran@example.com,(0808)1570098,241 Leanne ways,East Donaldstad,Christmas Island,S6G 5RJ,67,Male,2024-05-24,
+84,Jacob,Gallagher,lynneatkinson@example.org,(0161) 4960372,Flat 43\nBrown dale,Jordanland,Suriname,W4 8JG,47,Other,2022-05-28,
+85,Caroline,Jennings,sarawilliams@example.org,(0118) 496 0467,943 Connor fall,Wardchester,Cameroon,S4B 6NQ,44,Female,2010-03-10,
+86,Yasmina,Wyss,leticiarey@example.com,+41 52 934 70 19,Blumstrasse 837,Bellinzona,Simbabwe,1086,29,Female,2010-10-15,"2838,2841"
+87,Hans-Peter,Juncken,karl-hermannkabus@example.net,+49 (0) 1079 651365,Henschelallee 1,Pritzwalk,Demokratische Republik Kongo,59333,74,Other,2018-11-25,"6275,8950"
+88,Leona,Sagmeister,aurelio74@example.org,+43 3662 55177 486,Mittergasse 473,Weiz,Mauritius,5496,33,Male,2012-07-06,
+89,Guy,Carre,huguesrenaud@example.net,+33 (0)1 47 06 71 23,"82, rue Christophe Bouvier",Rivière-sur-Léger,Afghanistan,51738,47,Male,2013-01-06,"7882,4608,9421"
+90,Julianna,Baka,agnieszkazeman@example.com,22 581 26 92,ulica Średnia 81/05,Gdynia,Slovakia,05-730,51,Other,2017-03-01,"8506,6197,7035"
+91,Nicole,Huemer,jonathan37@example.net,02819 46731 432,Schmidlstr. 2,Lienz,Irland,9486,62,Female,2020-10-13,"2614,8458"
+92,Bastian,Zotter,mia49@example.net,02786/81878846,Carl-Hinteregger-Straße 8,Innsbruck,Mongolei,6181,47,Female,2010-06-18,8036
+93,Halil,Vogt,qkern@example.net,+41 32 477 15 75,Aebistrasse 99,Val-de-Ruz,Komoren,6663,31,Female,2012-12-23,"3233,8237"
+94,Margaud,Ruiz,hamelmatthieu@example.net,+33 2 31 45 58 55,"31, chemin de Legros",Maury,Côte d'Ivoire,72346,18,Other,2011-01-31,
+95,Kilian,Pesendorfer,breuerselena@example.com,+43 (0) 3869 88171178,Daniel-Nemeth-Platz 409,Sankt Johann im Pongau,Sudan,9016,67,Female,2020-12-12,"6821,8036"
+96,Hannah,Klotz,raisakaester@example.com,+49(0) 757710916,Bolanderring 073,Rostock,Mauretanien,58501,25,Male,2019-11-21,
+97,Claire,Moulin,marcel00@example.net,+33 3 67 99 67 10,chemin Cousin,PerrotBourg,Nouvelle Calédonie,94318,78,Male,2019-01-22,
+98,Adrián,Menendez,andresgisela@example.org,+34945 74 96 52,Plaza Vito Fábregas 6,Huesca,Estados Unidos de América,31371,32,Other,2019-10-19,"2445,2484,3520"
+99,Francoise,Flantz,sieringcornelia@example.net,(09269) 354797,Lars-Binner-Allee 0/4,Lübz,Portugal,67310,50,Other,2023-02-16,"3953,5413"
+100,Ryan,Briggs,helencollins@example.org,+44(0)141 496 0709,28 Taylor lights,Cliffordport,Maldives,CW5M 5QW,46,Male,2017-11-24,7452
+101,Macaria,Zabaleta,xprada@example.com,+34 926 597 228,Cuesta de Cándido Rozas 7 Apt. 32 ,Murcia,Samoa,51724,20,Female,2015-05-19,"7657,4710"

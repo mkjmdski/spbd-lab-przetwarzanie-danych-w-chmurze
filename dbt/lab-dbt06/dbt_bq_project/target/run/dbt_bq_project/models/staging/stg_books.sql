@@ -1,4 +1,8 @@
--- models/staging/stg_books.sql
+
+
+  create or replace view `uam-proj`.`bookstore_stg`.`stg_books`
+  OPTIONS()
+  as -- models/staging/stg_books.sql
 WITH source AS (
     SELECT
         CAST(index AS INT64) as book_id,
@@ -16,7 +20,7 @@ WITH source AS (
         sales_rank,
         Publisher_ as publisher,
         units_sold
-    FROM {{ source('gcs_raw', 'ext_books') }}
+    FROM `uam-proj`.`bookstore_src`.`ext_books`
 ),
 
 dummy_record AS (
@@ -40,5 +44,5 @@ dummy_record AS (
 
 SELECT * FROM source
 UNION ALL
-SELECT * FROM dummy_record
+SELECT * FROM dummy_record;
 

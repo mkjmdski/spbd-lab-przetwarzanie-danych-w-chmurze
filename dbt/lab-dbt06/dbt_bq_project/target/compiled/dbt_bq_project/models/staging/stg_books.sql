@@ -16,7 +16,7 @@ WITH source AS (
         sales_rank,
         Publisher_ as publisher,
         units_sold
-    FROM {{ source('gcs_raw', 'ext_books') }}
+    FROM `uam-proj`.`bookstore_src`.`ext_books`
 ),
 
 dummy_record AS (
@@ -41,4 +41,3 @@ dummy_record AS (
 SELECT * FROM source
 UNION ALL
 SELECT * FROM dummy_record
-

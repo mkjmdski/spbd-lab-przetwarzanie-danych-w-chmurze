@@ -1,0 +1,878 @@
+[0m09:43:48.307234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2cd3ada30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2cc9eb230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2cdabd940>]}
+
+
+============================== 09:43:48.368773 | 86fc2761-94fc-4c85-9853-9315a27c4f00 ==============================
+[0m09:43:48.368773 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:43:48.369753 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'log_format': 'default', 'cache_selected_only': 'False', 'introspect': 'True', 'target_path': 'None', 'printer_width': '80', 'use_experimental_parser': 'False', 'profiles_dir': '/config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt05/', 'fail_fast': 'False', 'invocation_command': 'dbt run -s stg_books', 'version_check': 'True', 'debug': 'False', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'log_path': '/config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/logs', 'warn_error': 'None', 'quiet': 'False', 'use_colors': 'True', 'empty': 'False', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'indirect_selection': 'eager', 'partial_parse': 'True'}
+[0m09:43:54.793965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '86fc2761-94fc-4c85-9853-9315a27c4f00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2b3927cb0>]}
+[0m09:43:54.894111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '86fc2761-94fc-4c85-9853-9315a27c4f00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2b3047f80>]}
+[0m09:43:54.895240 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m09:43:55.137468 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m09:43:55.138915 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m09:43:55.139784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '86fc2761-94fc-4c85-9853-9315a27c4f00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2b352d220>]}
+[0m09:43:57.074448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '86fc2761-94fc-4c85-9853-9315a27c4f00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2b2ec0530>]}
+[0m09:43:57.191850 [debug] [MainThread]: Wrote artifact WritableManifest to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/manifest.json
+[0m09:43:57.195013 [debug] [MainThread]: Wrote artifact SemanticManifest to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/semantic_manifest.json
+[0m09:43:57.244254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '86fc2761-94fc-4c85-9853-9315a27c4f00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2b23e0b90>]}
+[0m09:43:57.245119 [info ] [MainThread]: Found 16 models, 3 sources, 539 macros
+[0m09:43:57.245842 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '86fc2761-94fc-4c85-9853-9315a27c4f00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2b2ae50a0>]}
+[0m09:43:57.248423 [info ] [MainThread]: 
+[0m09:43:57.249126 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m09:43:57.249704 [info ] [MainThread]: 
+[0m09:43:57.250612 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m09:43:57.252279 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_uam-proj'
+[0m09:43:57.253242 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:43:57.591770 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_uam-proj, now list_uam-proj_bookstore_semantic)
+[0m09:43:57.592845 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:43:57.593776 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_uam-proj_bookstore_stg'
+[0m09:43:57.596297 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:43:57.597268 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_uam-proj_bookstore_dwh'
+[0m09:43:57.601136 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:43:57.598874 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_uam-proj_bookstore_int'
+[0m09:43:57.604870 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:43:57.882039 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_uam-proj_bookstore_dwh, now list_uam-proj_bookstore_security)
+[0m09:43:57.882929 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:43:58.188074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '86fc2761-94fc-4c85-9853-9315a27c4f00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2b2ee6990>]}
+[0m09:43:58.189024 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:43:58.193893 [debug] [Thread-1 (]: Began running node model.dbt_bq_project.stg_books
+[0m09:43:58.194950 [info ] [Thread-1 (]: 1 of 1 START sql view model bookstore_stg.stg_books ............................ [RUN]
+[0m09:43:58.195857 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_uam-proj_bookstore_int, now model.dbt_bq_project.stg_books)
+[0m09:43:58.196480 [debug] [Thread-1 (]: Began compiling node model.dbt_bq_project.stg_books
+[0m09:43:58.208061 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_bq_project.stg_books"
+[0m09:43:58.209338 [debug] [Thread-1 (]: Began executing node model.dbt_bq_project.stg_books
+[0m09:43:58.253870 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_bq_project.stg_books"
+[0m09:43:58.255255 [debug] [Thread-1 (]: On model.dbt_bq_project.stg_books: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.stg_books"} */
+
+
+  create or replace view `uam-proj`.`bookstore_stg`.`stg_books`
+  OPTIONS()
+  as -- models/staging/stg_books.sql
+WITH source AS (
+    SELECT
+        CAST(index AS INT64) as book_id,
+        Publishing_Year as publishing_year,
+        Book_Name as title,
+        Author as author,
+        language_code,
+        Author_Rating as author_rating,
+        Book_average_rating as book_average_rating,
+        Book_ratings_count as book_ratings_count,
+        genre as category,
+        gross_sales,
+        publisher_revenue,
+        sale_price as price,
+        sales_rank,
+        Publisher_ as publisher,
+        units_sold
+    FROM `uam-proj`.`bookstore_src`.`ext_books`
+),
+
+dummy_record AS (
+    SELECT
+        -1 as book_id,
+        NULL as publishing_year,
+        'Nieznana Książka (Błąd danych)' as title,
+        'System' as author,
+        'PL' as language_code,
+        '0' as author_rating,
+        0.0 as book_average_rating,
+        0 as book_ratings_count,
+        'Unknown' as category,
+        0.0 as gross_sales,
+        0.0 as publisher_revenue,
+        0.0 as price,
+        99999 as sales_rank,
+        'System' as publisher,
+        0 as units_sold
+)
+
+SELECT * FROM source
+UNION ALL
+SELECT * FROM dummy_record;
+
+
+[0m09:43:58.256233 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:43:58.858708 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:4eadc13e-0557-41ea-83fb-f09dbec62f99&page=queryresults
+[0m09:43:59.197821 [debug] [Thread-1 (]: SQL status: OK in 0.338 seconds
+[0m09:43:59.284802 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '86fc2761-94fc-4c85-9853-9315a27c4f00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2b33cccb0>]}
+[0m09:43:59.285992 [info ] [Thread-1 (]: 1 of 1 OK created sql view model bookstore_stg.stg_books ....................... [[32mCREATE VIEW (0 processed)[0m in 1.09s]
+[0m09:43:59.287077 [debug] [Thread-1 (]: Finished running node model.dbt_bq_project.stg_books
+[0m09:43:59.289196 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m09:43:59.290180 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:43:59.290714 [debug] [MainThread]: Connection 'list_uam-proj_bookstore_semantic' was properly closed.
+[0m09:43:59.291302 [debug] [MainThread]: Connection 'list_uam-proj_bookstore_stg' was properly closed.
+[0m09:43:59.291823 [debug] [MainThread]: Connection 'list_uam-proj_bookstore_security' was properly closed.
+[0m09:43:59.292368 [debug] [MainThread]: Connection 'model.dbt_bq_project.stg_books' was properly closed.
+[0m09:43:59.293055 [info ] [MainThread]: 
+[0m09:43:59.293721 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 2.04 seconds (2.04s).
+[0m09:43:59.294881 [debug] [MainThread]: Command end result
+[0m09:43:59.342266 [debug] [MainThread]: Wrote artifact WritableManifest to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/manifest.json
+[0m09:43:59.345384 [debug] [MainThread]: Wrote artifact SemanticManifest to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/semantic_manifest.json
+[0m09:43:59.354017 [debug] [MainThread]: Wrote artifact RunExecutionResult to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/run_results.json
+[0m09:43:59.354670 [info ] [MainThread]: 
+[0m09:43:59.355410 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:43:59.356012 [info ] [MainThread]: 
+[0m09:43:59.356657 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m09:43:59.357634 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 11.133316, "process_in_blocks": "0", "process_kernel_time": 0.781205, "process_mem_max_rss": "299804", "process_out_blocks": "3776", "process_user_time": 15.877987}
+[0m09:43:59.358558 [debug] [MainThread]: Command `dbt run` succeeded at 09:43:59.358308 after 11.13 seconds
+[0m09:43:59.359194 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2ccc53c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2cdd536e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ee2b2c19a00>]}
+[0m09:43:59.359823 [debug] [MainThread]: Flushing usage events
+[0m09:43:59.952591 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:45:52.981743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc2e19b140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc2bb60c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc2b731100>]}
+
+
+============================== 09:45:53.045791 | 6ceecfdc-127b-42b2-bfab-54b9baff2757 ==============================
+[0m09:45:53.045791 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:45:53.046823 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'target_path': 'None', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': '/config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/logs', 'invocation_command': 'dbt run', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'log_format': 'default', 'no_print': 'None', 'introspect': 'True', 'printer_width': '80', 'fail_fast': 'False', 'version_check': 'True', 'debug': 'False', 'empty': 'False', 'use_colors': 'True', 'static_parser': 'True', 'write_json': 'True', 'warn_error': 'None', 'profiles_dir': '/config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/'}
+[0m09:45:59.496482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc11d2fda0>]}
+[0m09:45:59.596882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc11ba3770>]}
+[0m09:45:59.598016 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m09:45:59.848889 [debug] [MainThread]: checksum: 7d524ac048c2100769df89d592e662e060a73ca564e31bd9c2a37efdfe8d8ab6, vars: {}, profile: , target: , version: 1.11.8
+[0m09:46:00.000072 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:46:00.001459 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m09:46:00.002095 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:46:00.051403 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc11548620>]}
+[0m09:46:00.189717 [debug] [MainThread]: Wrote artifact WritableManifest to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/manifest.json
+[0m09:46:00.193318 [debug] [MainThread]: Wrote artifact SemanticManifest to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/semantic_manifest.json
+[0m09:46:00.244411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc11327fb0>]}
+[0m09:46:00.245312 [info ] [MainThread]: Found 16 models, 3 sources, 539 macros
+[0m09:46:00.246209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc2afa7530>]}
+[0m09:46:00.249915 [info ] [MainThread]: 
+[0m09:46:00.250647 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m09:46:00.251239 [info ] [MainThread]: 
+[0m09:46:00.252269 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m09:46:00.260528 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_uam-proj'
+[0m09:46:00.261705 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_uam-proj'
+[0m09:46:00.262298 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:46:00.263351 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_uam-proj'
+[0m09:46:00.263998 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:46:00.265117 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_uam-proj'
+[0m09:46:00.270664 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:46:00.281530 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:46:00.629100 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:46:00.880623 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_uam-proj, now create_uam-proj_bookstore_int)
+[0m09:46:00.881692 [debug] [ThreadPool]: Creating schema "database: "uam-proj"
+schema: "bookstore_int"
+"
+[0m09:46:00.897713 [debug] [ThreadPool]: On create_uam-proj_bookstore_int: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "connection_name": "create_uam-proj_bookstore_int"} */
+create schema if not exists `uam-proj`.`bookstore_int`
+  
+[0m09:46:00.898559 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:46:01.503974 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:3b9b061e-8b28-4029-a083-07d285788f05&page=queryresults
+[0m09:46:03.208958 [debug] [ThreadPool]: SQL status: OK in 1.704 seconds
+[0m09:46:03.288231 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_uam-proj_bookstore_int, now list_uam-proj_bookstore_security)
+[0m09:46:03.290274 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_uam-proj, now list_uam-proj_bookstore_semantic)
+[0m09:46:03.291228 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:46:03.292659 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_uam-proj, now list_uam-proj_bookstore_dwh)
+[0m09:46:03.294343 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_uam-proj, now list_uam-proj_bookstore_int)
+[0m09:46:03.295422 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:46:03.298090 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:46:03.298868 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:46:03.594025 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_uam-proj_bookstore_security, now list_uam-proj_bookstore_stg)
+[0m09:46:03.595824 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:46:03.801787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc2d946db0>]}
+[0m09:46:03.803128 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:46:03.810252 [debug] [Thread-1 (]: Began running node model.dbt_bq_project.stg_books
+[0m09:46:03.812105 [debug] [Thread-2 (]: Began running node model.dbt_bq_project.stg_transactions
+[0m09:46:03.814084 [debug] [Thread-3 (]: Began running node model.dbt_bq_project.user_keys
+[0m09:46:03.815953 [info ] [Thread-1 (]: 1 of 16 START sql view model bookstore_stg.stg_books ........................... [RUN]
+[0m09:46:03.817294 [info ] [Thread-2 (]: 2 of 16 START sql view model bookstore_stg.stg_transactions .................... [RUN]
+[0m09:46:03.818457 [info ] [Thread-3 (]: 3 of 16 START sql incremental model bookstore_security.user_keys ............... [RUN]
+[0m09:46:03.819538 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_uam-proj_bookstore_stg, now model.dbt_bq_project.stg_books)
+[0m09:46:03.820444 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_uam-proj_bookstore_int, now model.dbt_bq_project.stg_transactions)
+[0m09:46:03.823799 [debug] [Thread-2 (]: Began compiling node model.dbt_bq_project.stg_transactions
+[0m09:46:03.821281 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly list_uam-proj_bookstore_semantic, now model.dbt_bq_project.user_keys)
+[0m09:46:03.822113 [debug] [Thread-1 (]: Began compiling node model.dbt_bq_project.stg_books
+[0m09:46:03.835489 [debug] [Thread-3 (]: Began compiling node model.dbt_bq_project.user_keys
+[0m09:46:03.839113 [debug] [Thread-2 (]: Writing injected SQL for node "model.dbt_bq_project.stg_transactions"
+[0m09:46:03.845359 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_bq_project.stg_books"
+[0m09:46:03.853852 [debug] [Thread-2 (]: Began executing node model.dbt_bq_project.stg_transactions
+[0m09:46:03.856083 [debug] [Thread-1 (]: Began executing node model.dbt_bq_project.stg_books
+[0m09:46:03.868596 [debug] [Thread-3 (]: Writing injected SQL for node "model.dbt_bq_project.user_keys"
+[0m09:46:03.948161 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_bq_project.stg_books"
+[0m09:46:03.952327 [debug] [Thread-2 (]: Writing runtime sql for node "model.dbt_bq_project.stg_transactions"
+[0m09:46:03.954326 [debug] [Thread-3 (]: Began executing node model.dbt_bq_project.user_keys
+[0m09:46:03.955383 [debug] [Thread-1 (]: On model.dbt_bq_project.stg_books: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.stg_books"} */
+
+
+  create or replace view `uam-proj`.`bookstore_stg`.`stg_books`
+  OPTIONS()
+  as -- models/staging/stg_books.sql
+WITH source AS (
+    SELECT
+        CAST(index AS INT64) as book_id,
+        Publishing_Year as publishing_year,
+        Book_Name as title,
+        Author as author,
+        language_code,
+        Author_Rating as author_rating,
+        Book_average_rating as book_average_rating,
+        Book_ratings_count as book_ratings_count,
+        genre as category,
+        gross_sales,
+        publisher_revenue,
+        sale_price as price,
+        sales_rank,
+        Publisher_ as publisher,
+        units_sold
+    FROM `uam-proj`.`bookstore_src`.`ext_books`
+),
+
+dummy_record AS (
+    SELECT
+        -1 as book_id,
+        NULL as publishing_year,
+        'Nieznana Książka (Błąd danych)' as title,
+        'System' as author,
+        'PL' as language_code,
+        '0' as author_rating,
+        0.0 as book_average_rating,
+        0 as book_ratings_count,
+        'Unknown' as category,
+        0.0 as gross_sales,
+        0.0 as publisher_revenue,
+        0.0 as price,
+        99999 as sales_rank,
+        'System' as publisher,
+        0 as units_sold
+)
+
+SELECT * FROM source
+UNION ALL
+SELECT * FROM dummy_record;
+
+
+[0m09:46:03.956774 [debug] [Thread-2 (]: On model.dbt_bq_project.stg_transactions: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.stg_transactions"} */
+
+
+  create or replace view `uam-proj`.`bookstore_stg`.`stg_transactions`
+  OPTIONS()
+  as SELECT
+    transaction_id,
+    customer_id,
+    CAST(transaction_date AS DATE) as transaction_date,
+    items,
+    cash_register,
+    cashier
+FROM `uam-proj`.`bookstore_src`.`ext_transactions`;
+
+
+[0m09:46:03.981390 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:46:03.992938 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:46:04.143174 [debug] [Thread-3 (]: Writing runtime sql for node "model.dbt_bq_project.user_keys"
+[0m09:46:04.144988 [debug] [Thread-3 (]: On model.dbt_bq_project.user_keys: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.user_keys"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_security`.`user_keys`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    customer_id,
+    TO_HEX(KEYS.NEW_KEYSET('AEAD_AES_GCM_256')) as encryption_key
+FROM `uam-proj`.`bookstore_src`.`ext_customers`
+
+
+    );
+  
+[0m09:46:04.147063 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:46:04.639750 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:df6b20d6-8d7d-4f54-a63e-0fec4ca468d8&page=queryresults
+[0m09:46:04.669675 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:b98ca200-2f81-47df-baea-abe79b848b85&page=queryresults
+[0m09:46:04.850153 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:ac9aa578-1bb1-44f3-ad4f-c3c4887ca814&page=queryresults
+[0m09:46:04.979993 [debug] [Thread-1 (]: SQL status: OK in 0.339 seconds
+[0m09:46:05.012601 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc119f2c30>]}
+[0m09:46:05.014001 [info ] [Thread-1 (]: 1 of 16 OK created sql view model bookstore_stg.stg_books ...................... [[32mCREATE VIEW (0 processed)[0m in 1.19s]
+[0m09:46:05.015191 [debug] [Thread-1 (]: Finished running node model.dbt_bq_project.stg_books
+[0m09:46:05.016836 [debug] [Thread-4 (]: Began running node model.dbt_bq_project.dim_authors
+[0m09:46:05.017587 [debug] [Thread-1 (]: Began running node model.dbt_bq_project.dim_books
+[0m09:46:05.019288 [info ] [Thread-1 (]: 5 of 16 START sql table model bookstore_dwh.dim_books .......................... [RUN]
+[0m09:46:05.018327 [info ] [Thread-4 (]: 4 of 16 START sql table model bookstore_dwh.dim_authors ........................ [RUN]
+[0m09:46:05.020189 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.stg_books, now model.dbt_bq_project.dim_books)
+[0m09:46:05.021030 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly list_uam-proj_bookstore_dwh, now model.dbt_bq_project.dim_authors)
+[0m09:46:05.021890 [debug] [Thread-1 (]: Began compiling node model.dbt_bq_project.dim_books
+[0m09:46:05.022629 [debug] [Thread-4 (]: Began compiling node model.dbt_bq_project.dim_authors
+[0m09:46:05.027910 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_bq_project.dim_books"
+[0m09:46:05.032679 [debug] [Thread-4 (]: Writing injected SQL for node "model.dbt_bq_project.dim_authors"
+[0m09:46:05.035260 [debug] [Thread-1 (]: Began executing node model.dbt_bq_project.dim_books
+[0m09:46:05.041884 [debug] [Thread-2 (]: SQL status: OK in 0.371 seconds
+[0m09:46:05.057004 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_bq_project.dim_books"
+[0m09:46:05.059401 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc1055e930>]}
+[0m09:46:05.061812 [info ] [Thread-2 (]: 2 of 16 OK created sql view model bookstore_stg.stg_transactions ............... [[32mCREATE VIEW (0 processed)[0m in 1.24s]
+[0m09:46:05.060215 [debug] [Thread-4 (]: Began executing node model.dbt_bq_project.dim_authors
+[0m09:46:05.063585 [debug] [Thread-2 (]: Finished running node model.dbt_bq_project.stg_transactions
+[0m09:46:05.064287 [debug] [Thread-1 (]: On model.dbt_bq_project.dim_books: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.dim_books"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_dwh`.`dim_books`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      -- models/dwh/core/dim_books.sql
+
+
+SELECT
+    book_id,
+    title,
+    author,
+    ABS(FARM_FINGERPRINT(author)) as author_id,
+    publisher,
+    ABS(FARM_FINGERPRINT(publisher)) as publisher_id,
+    category
+FROM `uam-proj`.`bookstore_stg`.`stg_books`
+    );
+  
+[0m09:46:05.068819 [debug] [Thread-4 (]: Writing runtime sql for node "model.dbt_bq_project.dim_authors"
+[0m09:46:05.072158 [debug] [Thread-4 (]: On model.dbt_bq_project.dim_authors: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.dim_authors"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_dwh`.`dim_authors`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      -- models/dwh/core/dim_authors.sql
+
+
+WITH base AS (
+    SELECT DISTINCT
+        author as author_name,
+        author_rating
+    FROM `uam-proj`.`bookstore_stg`.`stg_books`
+)
+
+SELECT
+    ABS(FARM_FINGERPRINT(author_name)) as author_id,
+    author_name,
+    author_rating
+FROM base
+    );
+  
+[0m09:46:05.071032 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:46:05.069943 [debug] [Thread-2 (]: Began running node model.dbt_bq_project.dim_publishers
+[0m09:46:05.072966 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:46:05.075655 [info ] [Thread-2 (]: 6 of 16 START sql table model bookstore_dwh.dim_publishers ..................... [RUN]
+[0m09:46:05.079288 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.stg_transactions, now model.dbt_bq_project.dim_publishers)
+[0m09:46:05.080695 [debug] [Thread-2 (]: Began compiling node model.dbt_bq_project.dim_publishers
+[0m09:46:05.091397 [debug] [Thread-2 (]: Writing injected SQL for node "model.dbt_bq_project.dim_publishers"
+[0m09:46:05.095008 [debug] [Thread-2 (]: Began executing node model.dbt_bq_project.dim_publishers
+[0m09:46:05.110282 [debug] [Thread-2 (]: Writing runtime sql for node "model.dbt_bq_project.dim_publishers"
+[0m09:46:05.113465 [debug] [Thread-2 (]: On model.dbt_bq_project.dim_publishers: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.dim_publishers"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_dwh`.`dim_publishers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      -- models/dwh/core/dim_publishers.sql
+
+
+WITH base AS (
+    SELECT DISTINCT
+        publisher as publisher_name
+    FROM `uam-proj`.`bookstore_stg`.`stg_books`
+)
+
+SELECT
+    ABS(FARM_FINGERPRINT(publisher_name)) as publisher_id,
+    publisher_name
+FROM base
+    );
+  
+[0m09:46:05.116277 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:46:05.917789 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:ef71b596-4132-4bf0-aeac-5aa2de5946df&page=queryresults
+[0m09:46:05.963774 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:67e27f32-6513-4dfd-93b6-8c3e10da8691&page=queryresults
+[0m09:46:06.088992 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:f6d11a32-3707-40fe-aaa0-15b0db6a1d86&page=queryresults
+[0m09:46:07.491461 [debug] [Thread-3 (]: SQL status: OK in 2.640 seconds
+[0m09:46:07.529965 [debug] [Thread-1 (]: SQL status: OK in 1.611 seconds
+[0m09:46:07.676520 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc10565460>]}
+[0m09:46:07.677982 [info ] [Thread-3 (]: 3 of 16 OK created sql incremental model bookstore_security.user_keys .......... [[32mCREATE TABLE (505.0 rows, 73.6 KiB processed)[0m in 3.85s]
+[0m09:46:07.679259 [debug] [Thread-3 (]: Finished running node model.dbt_bq_project.user_keys
+[0m09:46:07.680416 [debug] [Thread-3 (]: Began running node model.dbt_bq_project.stg_customers
+[0m09:46:07.681476 [info ] [Thread-3 (]: 7 of 16 START sql view model bookstore_stg.stg_customers ....................... [RUN]
+[0m09:46:07.682475 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.user_keys, now model.dbt_bq_project.stg_customers)
+[0m09:46:07.683236 [debug] [Thread-3 (]: Began compiling node model.dbt_bq_project.stg_customers
+[0m09:46:07.696812 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc103d9fd0>]}
+[0m09:46:07.701952 [debug] [Thread-3 (]: Writing injected SQL for node "model.dbt_bq_project.stg_customers"
+[0m09:46:07.703472 [info ] [Thread-1 (]: 5 of 16 OK created sql table model bookstore_dwh.dim_books ..................... [[32mCREATE TABLE (1.1k rows, 100.0 KiB processed)[0m in 2.68s]
+[0m09:46:07.705068 [debug] [Thread-1 (]: Finished running node model.dbt_bq_project.dim_books
+[0m09:46:07.706079 [debug] [Thread-3 (]: Began executing node model.dbt_bq_project.stg_customers
+[0m09:46:07.711109 [debug] [Thread-3 (]: Writing runtime sql for node "model.dbt_bq_project.stg_customers"
+[0m09:46:07.712616 [debug] [Thread-3 (]: On model.dbt_bq_project.stg_customers: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.stg_customers"} */
+
+
+  create or replace view `uam-proj`.`bookstore_stg`.`stg_customers`
+  OPTIONS()
+  as SELECT
+    c.* REPLACE (
+        TO_HEX(AEAD.ENCRYPT(SAFE.FROM_HEX(k.encryption_key), first_name, '')) as first_name,
+        TO_HEX(AEAD.ENCRYPT(SAFE.FROM_HEX(k.encryption_key), last_name, '')) as last_name,
+        TO_HEX(AEAD.ENCRYPT(SAFE.FROM_HEX(k.encryption_key), email, '')) as email,
+        TO_HEX(AEAD.ENCRYPT(SAFE.FROM_HEX(k.encryption_key), phone_number, '')) as phone_number,
+        TO_HEX(AEAD.ENCRYPT(SAFE.FROM_HEX(k.encryption_key), address, '')) as address,
+        date as registration_date
+    )
+FROM `uam-proj`.`bookstore_src`.`ext_customers` c
+JOIN `uam-proj`.`bookstore_security`.`user_keys` k ON c.customer_id = k.customer_id;
+
+
+[0m09:46:07.713573 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:46:07.744385 [debug] [Thread-4 (]: SQL status: OK in 1.780 seconds
+[0m09:46:07.888002 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc103ff200>]}
+[0m09:46:07.889658 [info ] [Thread-4 (]: 4 of 16 OK created sql table model bookstore_dwh.dim_authors ................... [[32mCREATE TABLE (820.0 rows, 35.1 KiB processed)[0m in 2.87s]
+[0m09:46:07.891452 [debug] [Thread-4 (]: Finished running node model.dbt_bq_project.dim_authors
+[0m09:46:08.083195 [debug] [Thread-2 (]: SQL status: OK in 1.993 seconds
+[0m09:46:08.211752 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc1042aea0>]}
+[0m09:46:08.213064 [info ] [Thread-2 (]: 6 of 16 OK created sql table model bookstore_dwh.dim_publishers ................ [[32mCREATE TABLE (10.0 rows, 29.4 KiB processed)[0m in 3.13s]
+[0m09:46:08.214163 [debug] [Thread-2 (]: Finished running node model.dbt_bq_project.dim_publishers
+[0m09:46:08.276471 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:e6dd55b8-3033-4ddb-b300-3209d8a24437&page=queryresults
+[0m09:46:08.583602 [debug] [Thread-3 (]: SQL status: OK in 0.306 seconds
+[0m09:46:08.589069 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc10428b30>]}
+[0m09:46:08.590334 [info ] [Thread-3 (]: 7 of 16 OK created sql view model bookstore_stg.stg_customers .................. [[32mCREATE VIEW (0 processed)[0m in 0.91s]
+[0m09:46:08.591475 [debug] [Thread-3 (]: Finished running node model.dbt_bq_project.stg_customers
+[0m09:46:08.592980 [debug] [Thread-1 (]: Began running node model.dbt_bq_project.dim_customers
+[0m09:46:08.593730 [debug] [Thread-4 (]: Began running node model.dbt_bq_project.prep_transactions_enriched
+[0m09:46:08.595463 [info ] [Thread-4 (]: 9 of 16 START sql view model bookstore_int.prep_transactions_enriched .......... [RUN]
+[0m09:46:08.594534 [info ] [Thread-1 (]: 8 of 16 START sql table model bookstore_dwh.dim_customers ...................... [RUN]
+[0m09:46:08.596372 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.dim_authors, now model.dbt_bq_project.prep_transactions_enriched)
+[0m09:46:08.598083 [debug] [Thread-4 (]: Began compiling node model.dbt_bq_project.prep_transactions_enriched
+[0m09:46:08.597266 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.dim_books, now model.dbt_bq_project.dim_customers)
+[0m09:46:08.604079 [debug] [Thread-4 (]: Writing injected SQL for node "model.dbt_bq_project.prep_transactions_enriched"
+[0m09:46:08.604955 [debug] [Thread-1 (]: Began compiling node model.dbt_bq_project.dim_customers
+[0m09:46:08.609467 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_bq_project.dim_customers"
+[0m09:46:08.610927 [debug] [Thread-4 (]: Began executing node model.dbt_bq_project.prep_transactions_enriched
+[0m09:46:08.615423 [debug] [Thread-4 (]: Writing runtime sql for node "model.dbt_bq_project.prep_transactions_enriched"
+[0m09:46:08.616367 [debug] [Thread-1 (]: Began executing node model.dbt_bq_project.dim_customers
+[0m09:46:08.621109 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_bq_project.dim_customers"
+[0m09:46:08.622491 [debug] [Thread-1 (]: On model.dbt_bq_project.dim_customers: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.dim_customers"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_dwh`.`dim_customers`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      SELECT
+    customer_id,
+    first_name,
+    last_name,
+    email,
+    registration_date
+FROM `uam-proj`.`bookstore_stg`.`stg_customers`
+    );
+  
+[0m09:46:08.623910 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:46:08.625943 [debug] [Thread-4 (]: On model.dbt_bq_project.prep_transactions_enriched: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.prep_transactions_enriched"} */
+
+
+  create or replace view `uam-proj`.`bookstore_int`.`prep_transactions_enriched`
+  OPTIONS()
+  as WITH transactions AS (
+    SELECT * FROM `uam-proj`.`bookstore_stg`.`stg_transactions`
+),
+customers AS (
+    SELECT * FROM `uam-proj`.`bookstore_stg`.`stg_customers`
+),
+books AS (
+    SELECT * FROM `uam-proj`.`bookstore_stg`.`stg_books`
+),
+
+-- Krok 1: Rozpłaszczamy pozycje i łączymy z informacjami o książkach
+-- Używamy COALESCE i SAFE_CAST, aby zamienić błędy na nasz klucz techniczny -1
+flattened_items AS (
+    SELECT
+        t.transaction_id,
+        STRUCT(
+            COALESCE(SAFE_CAST(i.book_id AS INT64), -1) as book_id,
+            b.title as book_title,
+            b.author as book_author,
+            b.publisher as book_publisher,
+            b.category as book_category,
+            i.unit_price,
+            i.quantity
+        ) as item_enriched
+    FROM transactions t
+    CROSS JOIN UNNEST(t.items) i
+    LEFT JOIN books b ON COALESCE(SAFE_CAST(i.book_id AS INT64), -1) = b.book_id
+),
+
+-- Krok 2: Ponownie agregujemy wzbogacone pozycje do tablicy
+aggregated_items AS (
+    SELECT
+        transaction_id,
+        ARRAY_AGG(item_enriched) as items
+    FROM flattened_items
+    GROUP BY transaction_id
+)
+
+-- Krok 3: Łączymy wszystko w finalny model
+SELECT
+    t.* EXCEPT(items),
+    ai.items,
+    c.first_name,
+    c.last_name,
+    c.email,
+    c.registration_date
+FROM transactions t
+LEFT JOIN aggregated_items ai ON t.transaction_id = ai.transaction_id
+LEFT JOIN customers c ON t.customer_id = c.customer_id;
+
+
+[0m09:46:08.628878 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:46:09.552882 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:5e087679-f462-439c-b657-7e75920f293f&page=queryresults
+[0m09:46:09.832423 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:b2a467fd-4197-4502-8796-c8cc72219df6&page=queryresults
+[0m09:46:10.321200 [debug] [Thread-4 (]: SQL status: OK in 0.488 seconds
+[0m09:46:10.330490 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc10458f80>]}
+[0m09:46:10.332653 [info ] [Thread-4 (]: 9 of 16 OK created sql view model bookstore_int.prep_transactions_enriched ..... [[32mCREATE VIEW (0 processed)[0m in 1.73s]
+[0m09:46:10.335030 [debug] [Thread-4 (]: Finished running node model.dbt_bq_project.prep_transactions_enriched
+[0m09:46:10.336756 [debug] [Thread-3 (]: Began running node model.dbt_bq_project.flat_transactions
+[0m09:46:10.338036 [info ] [Thread-3 (]: 10 of 16 START sql table model bookstore_dwh.flat_transactions ................. [RUN]
+[0m09:46:10.340403 [debug] [Thread-2 (]: Began running node model.dbt_bq_project.nested_transactions
+[0m09:46:10.341925 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.stg_customers, now model.dbt_bq_project.flat_transactions)
+[0m09:46:10.345346 [debug] [Thread-3 (]: Began compiling node model.dbt_bq_project.flat_transactions
+[0m09:46:10.343766 [info ] [Thread-2 (]: 11 of 16 START sql table model bookstore_dwh.nested_transactions ............... [RUN]
+[0m09:46:10.352896 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.dim_publishers, now model.dbt_bq_project.nested_transactions)
+[0m09:46:10.358711 [debug] [Thread-2 (]: Began compiling node model.dbt_bq_project.nested_transactions
+[0m09:46:10.357357 [debug] [Thread-3 (]: Writing injected SQL for node "model.dbt_bq_project.flat_transactions"
+[0m09:46:10.365842 [debug] [Thread-3 (]: Began executing node model.dbt_bq_project.flat_transactions
+[0m09:46:10.369111 [debug] [Thread-2 (]: Writing injected SQL for node "model.dbt_bq_project.nested_transactions"
+[0m09:46:10.379610 [debug] [Thread-2 (]: Began executing node model.dbt_bq_project.nested_transactions
+[0m09:46:10.377813 [debug] [Thread-3 (]: Writing runtime sql for node "model.dbt_bq_project.flat_transactions"
+[0m09:46:10.387387 [debug] [Thread-3 (]: On model.dbt_bq_project.flat_transactions: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.flat_transactions"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_dwh`.`flat_transactions`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT
+    t.transaction_id,
+    t.customer_id,
+    t.transaction_date,
+    t.cash_register,
+    t.cashier,
+    t.first_name,
+    t.last_name,
+    t.email,
+    t.registration_date,
+    item.book_id,
+    item.book_title,
+    item.book_author,
+    ABS(FARM_FINGERPRINT(item.book_author)) as author_id,
+    item.book_publisher,
+    ABS(FARM_FINGERPRINT(item.book_publisher)) as publisher_id,
+    item.book_category,
+    item.unit_price,
+    item.quantity,
+    item.unit_price * item.quantity as total_item_price
+FROM `uam-proj`.`bookstore_int`.`prep_transactions_enriched` t,
+UNNEST(items) as item
+    );
+  
+[0m09:46:10.396016 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:46:10.395245 [debug] [Thread-2 (]: Writing runtime sql for node "model.dbt_bq_project.nested_transactions"
+[0m09:46:10.399794 [debug] [Thread-2 (]: On model.dbt_bq_project.nested_transactions: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.nested_transactions"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_dwh`.`nested_transactions`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      
+
+SELECT * FROM `uam-proj`.`bookstore_int`.`prep_transactions_enriched`
+    );
+  
+[0m09:46:10.403043 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:46:11.548750 [debug] [Thread-1 (]: SQL status: OK in 1.995 seconds
+[0m09:46:11.582192 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:a76e9a36-66f5-4b58-902a-317f9f093610&page=queryresults
+[0m09:46:11.612224 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:9e73db2a-8a77-4b71-b3e6-b15ac3dc0567&page=queryresults
+[0m09:46:11.709863 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc10483740>]}
+[0m09:46:11.711393 [info ] [Thread-1 (]: 8 of 16 OK created sql table model bookstore_dwh.dim_customers ................. [[32mCREATE TABLE (505.0 rows, 184.9 KiB processed)[0m in 3.11s]
+[0m09:46:11.712981 [debug] [Thread-1 (]: Finished running node model.dbt_bq_project.dim_customers
+[0m09:46:14.238460 [debug] [Thread-3 (]: SQL status: OK in 2.655 seconds
+[0m09:46:14.370788 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc1029dc40>]}
+[0m09:46:14.372147 [info ] [Thread-3 (]: 10 of 16 OK created sql table model bookstore_dwh.flat_transactions ............ [[32mCREATE TABLE (7.1k rows, 710.2 KiB processed)[0m in 4.03s]
+[0m09:46:14.373317 [debug] [Thread-3 (]: Finished running node model.dbt_bq_project.flat_transactions
+[0m09:46:14.374426 [debug] [Thread-4 (]: Began running node model.dbt_bq_project.fct_transactions
+[0m09:46:14.375276 [info ] [Thread-4 (]: 12 of 16 START sql table model bookstore_dwh.fct_transactions .................. [RUN]
+[0m09:46:14.376167 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.prep_transactions_enriched, now model.dbt_bq_project.fct_transactions)
+[0m09:46:14.376793 [debug] [Thread-4 (]: Began compiling node model.dbt_bq_project.fct_transactions
+[0m09:46:14.382036 [debug] [Thread-4 (]: Writing injected SQL for node "model.dbt_bq_project.fct_transactions"
+[0m09:46:14.383040 [debug] [Thread-4 (]: Began executing node model.dbt_bq_project.fct_transactions
+[0m09:46:14.387015 [debug] [Thread-4 (]: Writing runtime sql for node "model.dbt_bq_project.fct_transactions"
+[0m09:46:14.388017 [debug] [Thread-4 (]: On model.dbt_bq_project.fct_transactions: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.fct_transactions"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_dwh`.`fct_transactions`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      SELECT
+    transaction_id,
+    customer_id,
+    book_id,
+    book_title,
+    book_author,
+    author_id,
+    book_publisher,
+    publisher_id,
+    book_category,
+    transaction_date,
+    cash_register,
+    cashier,
+    unit_price,
+    quantity,
+    total_item_price
+FROM `uam-proj`.`bookstore_dwh`.`flat_transactions`
+    );
+  
+[0m09:46:14.388772 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:46:14.896536 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:81277929-4875-4193-af39-f1de87fc3f1b&page=queryresults
+[0m09:46:15.735177 [debug] [Thread-2 (]: SQL status: OK in 4.122 seconds
+[0m09:46:15.872461 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc1029e4e0>]}
+[0m09:46:15.873928 [info ] [Thread-2 (]: 11 of 16 OK created sql table model bookstore_dwh.nested_transactions .......... [[32mCREATE TABLE (703.0 rows, 710.2 KiB processed)[0m in 5.52s]
+[0m09:46:15.875217 [debug] [Thread-2 (]: Finished running node model.dbt_bq_project.nested_transactions
+[0m09:46:16.356824 [debug] [Thread-4 (]: SQL status: OK in 1.459 seconds
+[0m09:46:16.488381 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc104901d0>]}
+[0m09:46:16.489632 [info ] [Thread-4 (]: 12 of 16 OK created sql table model bookstore_dwh.fct_transactions ............. [[32mCREATE TABLE (7.1k rows, 1.2 MiB processed)[0m in 2.11s]
+[0m09:46:16.490783 [debug] [Thread-4 (]: Finished running node model.dbt_bq_project.fct_transactions
+[0m09:46:16.492196 [debug] [Thread-3 (]: Began running node model.dbt_bq_project.metrics_daily_sales
+[0m09:46:16.492808 [debug] [Thread-1 (]: Began running node model.dbt_bq_project.report_monthly_book_ranking
+[0m09:46:16.493480 [debug] [Thread-2 (]: Began running node model.dbt_bq_project.report_sales_per_publisher
+[0m09:46:16.494085 [debug] [Thread-4 (]: Began running node model.dbt_bq_project.report_top_10_authors
+[0m09:46:16.494820 [info ] [Thread-3 (]: 13 of 16 START sql table model bookstore_dwh.metrics_daily_sales ............... [RUN]
+[0m09:46:16.495836 [info ] [Thread-1 (]: 14 of 16 START sql table model bookstore_semantic.report_monthly_book_ranking .. [RUN]
+[0m09:46:16.496822 [info ] [Thread-2 (]: 15 of 16 START sql table model bookstore_semantic.report_sales_per_publisher ... [RUN]
+[0m09:46:16.498651 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.flat_transactions, now model.dbt_bq_project.metrics_daily_sales)
+[0m09:46:16.497875 [info ] [Thread-4 (]: 16 of 16 START sql table model bookstore_semantic.report_top_10_authors ........ [RUN]
+[0m09:46:16.499540 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.dim_customers, now model.dbt_bq_project.report_monthly_book_ranking)
+[0m09:46:16.502610 [debug] [Thread-1 (]: Began compiling node model.dbt_bq_project.report_monthly_book_ranking
+[0m09:46:16.500254 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.nested_transactions, now model.dbt_bq_project.report_sales_per_publisher)
+[0m09:46:16.508349 [debug] [Thread-2 (]: Began compiling node model.dbt_bq_project.report_sales_per_publisher
+[0m09:46:16.500934 [debug] [Thread-3 (]: Began compiling node model.dbt_bq_project.metrics_daily_sales
+[0m09:46:16.507477 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_bq_project.report_monthly_book_ranking"
+[0m09:46:16.501798 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.dbt_bq_project.fct_transactions, now model.dbt_bq_project.report_top_10_authors)
+[0m09:46:16.513238 [debug] [Thread-2 (]: Writing injected SQL for node "model.dbt_bq_project.report_sales_per_publisher"
+[0m09:46:16.517588 [debug] [Thread-3 (]: Writing injected SQL for node "model.dbt_bq_project.metrics_daily_sales"
+[0m09:46:16.518655 [debug] [Thread-4 (]: Began compiling node model.dbt_bq_project.report_top_10_authors
+[0m09:46:16.519928 [debug] [Thread-1 (]: Began executing node model.dbt_bq_project.report_monthly_book_ranking
+[0m09:46:16.525399 [debug] [Thread-4 (]: Writing injected SQL for node "model.dbt_bq_project.report_top_10_authors"
+[0m09:46:16.526153 [debug] [Thread-2 (]: Began executing node model.dbt_bq_project.report_sales_per_publisher
+[0m09:46:16.530815 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_bq_project.report_monthly_book_ranking"
+[0m09:46:16.531780 [debug] [Thread-3 (]: Began executing node model.dbt_bq_project.metrics_daily_sales
+[0m09:46:16.535966 [debug] [Thread-2 (]: Writing runtime sql for node "model.dbt_bq_project.report_sales_per_publisher"
+[0m09:46:16.536807 [debug] [Thread-4 (]: Began executing node model.dbt_bq_project.report_top_10_authors
+[0m09:46:16.544226 [debug] [Thread-3 (]: Writing runtime sql for node "model.dbt_bq_project.metrics_daily_sales"
+[0m09:46:16.545362 [debug] [Thread-1 (]: On model.dbt_bq_project.report_monthly_book_ranking: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.report_monthly_book_ranking"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_semantic`.`report_monthly_book_ranking`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      -- models/semantic/report_monthly_book_ranking.sql
+
+
+WITH monthly_sales AS (
+    SELECT
+        FORMAT_DATE('%Y-%m', transaction_date) as sales_month,
+        book_id,
+        book_title,
+        SUM(total_item_price) as total_revenue,
+        SUM(quantity) as total_units_sold
+    FROM `uam-proj`.`bookstore_dwh`.`fct_transactions`
+    GROUP BY 1, 2, 3
+),
+
+ranked_books AS (
+    SELECT
+        *,
+        RANK() OVER (PARTITION BY sales_month ORDER BY total_units_sold DESC) as monthly_rank
+    FROM monthly_sales
+)
+
+SELECT * FROM ranked_books
+ORDER BY sales_month DESC, monthly_rank ASC
+    );
+  
+[0m09:46:16.546336 [debug] [Thread-2 (]: On model.dbt_bq_project.report_sales_per_publisher: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.report_sales_per_publisher"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_semantic`.`report_sales_per_publisher`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      -- models/semantic/report_sales_per_publisher.sql
+
+
+SELECT
+    p.publisher_name,
+    SUM(f.total_item_price) as total_revenue,
+    SUM(f.quantity) as total_units_sold,
+    COUNT(DISTINCT f.transaction_id) as total_transactions
+FROM `uam-proj`.`bookstore_dwh`.`fct_transactions` f
+JOIN `uam-proj`.`bookstore_dwh`.`dim_publishers` p ON f.publisher_id = p.publisher_id
+GROUP BY 1
+ORDER BY total_revenue DESC
+    );
+  
+[0m09:46:16.550382 [debug] [Thread-4 (]: Writing runtime sql for node "model.dbt_bq_project.report_top_10_authors"
+[0m09:46:16.551798 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:46:16.552937 [debug] [Thread-3 (]: On model.dbt_bq_project.metrics_daily_sales: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.metrics_daily_sales"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_dwh`.`metrics_daily_sales`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      SELECT
+    transaction_date,
+    COUNT(DISTINCT transaction_id) as total_transactions,
+    COUNT(DISTINCT customer_id) as total_customers,
+    SUM(quantity) as total_items_sold,
+    SUM(total_item_price) as total_revenue
+FROM `uam-proj`.`bookstore_dwh`.`fct_transactions`
+GROUP BY 1
+ORDER BY 1 DESC
+    );
+  
+[0m09:46:16.557813 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:46:16.554750 [debug] [Thread-4 (]: On model.dbt_bq_project.report_top_10_authors: /* {"app": "dbt", "dbt_version": "1.11.8", "profile_name": "dbt_bq_project", "target_name": "dev", "node_id": "model.dbt_bq_project.report_top_10_authors"} */
+
+  
+    
+
+    create or replace table `uam-proj`.`bookstore_semantic`.`report_top_10_authors`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      -- models/semantic/report_top_10_authors.sql
+
+
+SELECT
+    a.author_name,
+    SUM(f.total_item_price) as total_revenue,
+    SUM(f.quantity) as total_units_sold,
+    COUNT(DISTINCT f.transaction_id) as total_transactions
+FROM `uam-proj`.`bookstore_dwh`.`fct_transactions` f
+JOIN `uam-proj`.`bookstore_dwh`.`dim_authors` a ON f.author_id = a.author_id
+GROUP BY 1
+ORDER BY total_revenue DESC
+LIMIT 10
+    );
+  
+[0m09:46:16.553718 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:46:16.563089 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:46:17.075779 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:4efb31b9-b098-4698-a632-f2c823f1637f&page=queryresults
+[0m09:46:17.229696 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:463a9355-b8db-46b8-8378-844645280356&page=queryresults
+[0m09:46:17.427279 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:173d0c68-0e10-4fb2-8cba-558d83dbd334&page=queryresults
+[0m09:46:17.434229 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=uam-proj&j=bq:EU:78b0da9b-5696-475e-9d76-a1a2559ed29c&page=queryresults
+[0m09:46:18.741750 [debug] [Thread-2 (]: SQL status: OK in 1.511 seconds
+[0m09:46:18.787614 [debug] [Thread-3 (]: SQL status: OK in 1.352 seconds
+[0m09:46:18.878055 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc103076e0>]}
+[0m09:46:18.880226 [info ] [Thread-2 (]: 15 of 16 OK created sql table model bookstore_semantic.report_sales_per_publisher  [[32mCREATE TABLE (9.0 rows, 222.8 KiB processed)[0m in 2.38s]
+[0m09:46:18.882958 [debug] [Thread-2 (]: Finished running node model.dbt_bq_project.report_sales_per_publisher
+[0m09:46:18.917532 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc102e1760>]}
+[0m09:46:18.920106 [info ] [Thread-3 (]: 13 of 16 OK created sql table model bookstore_dwh.metrics_daily_sales .......... [[32mCREATE TABLE (5.0 rows, 278.1 KiB processed)[0m in 2.42s]
+[0m09:46:18.921666 [debug] [Thread-3 (]: Finished running node model.dbt_bq_project.metrics_daily_sales
+[0m09:46:19.095953 [debug] [Thread-1 (]: SQL status: OK in 1.668 seconds
+[0m09:46:19.218592 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc102f4fe0>]}
+[0m09:46:19.220045 [info ] [Thread-1 (]: 14 of 16 OK created sql table model bookstore_semantic.report_monthly_book_ranking  [[32mCREATE TABLE (930.0 rows, 393.4 KiB processed)[0m in 2.72s]
+[0m09:46:19.221335 [debug] [Thread-1 (]: Finished running node model.dbt_bq_project.report_monthly_book_ranking
+[0m09:46:19.555223 [debug] [Thread-4 (]: SQL status: OK in 2.478 seconds
+[0m09:46:19.692145 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ceecfdc-127b-42b2-bfab-54b9baff2757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc103da570>]}
+[0m09:46:19.693464 [info ] [Thread-4 (]: 16 of 16 OK created sql table model bookstore_semantic.report_top_10_authors ... [[32mCREATE TABLE (10.0 rows, 246.8 KiB processed)[0m in 3.19s]
+[0m09:46:19.694680 [debug] [Thread-4 (]: Finished running node model.dbt_bq_project.report_top_10_authors
+[0m09:46:19.697342 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m09:46:19.698429 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:46:19.699030 [debug] [MainThread]: Connection 'model.dbt_bq_project.report_top_10_authors' was properly closed.
+[0m09:46:19.700150 [debug] [MainThread]: Connection 'model.dbt_bq_project.report_sales_per_publisher' was properly closed.
+[0m09:46:19.700792 [debug] [MainThread]: Connection 'model.dbt_bq_project.metrics_daily_sales' was properly closed.
+[0m09:46:19.701490 [debug] [MainThread]: Connection 'model.dbt_bq_project.report_monthly_book_ranking' was properly closed.
+[0m09:46:19.702655 [info ] [MainThread]: 
+[0m09:46:19.703334 [info ] [MainThread]: Finished running 1 incremental model, 11 table models, 4 view models in 0 hours 0 minutes and 19.45 seconds (19.45s).
+[0m09:46:19.707793 [debug] [MainThread]: Command end result
+[0m09:46:19.758145 [debug] [MainThread]: Wrote artifact WritableManifest to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/manifest.json
+[0m09:46:19.761397 [debug] [MainThread]: Wrote artifact SemanticManifest to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/semantic_manifest.json
+[0m09:46:19.773263 [debug] [MainThread]: Wrote artifact RunExecutionResult to /config/workspace/spbd-lab-przetwarzanie-danych-w-chmurze/dbt/lab-dbt06/dbt_bq_project/target/run_results.json
+[0m09:46:19.773933 [info ] [MainThread]: 
+[0m09:46:19.774693 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:46:19.775306 [info ] [MainThread]: 
+[0m09:46:19.775981 [info ] [MainThread]: Done. PASS=16 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=16
+[0m09:46:19.777045 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 26.883879, "process_in_blocks": "0", "process_kernel_time": 0.897649, "process_mem_max_rss": "297300", "process_out_blocks": "2952", "process_user_time": 16.366264}
+[0m09:46:19.777814 [debug] [MainThread]: Command `dbt run` succeeded at 09:46:19.777645 after 26.88 seconds
+[0m09:46:19.778563 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc2beee540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc2bef27e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fc2ba56780>]}
+[0m09:46:19.779186 [debug] [MainThread]: Flushing usage events
+[0m09:46:20.430952 [debug] [MainThread]: An error was encountered while trying to flush usage events

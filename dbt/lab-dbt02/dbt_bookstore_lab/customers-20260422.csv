@@ -1,0 +1,102 @@
+customer_id,first_name,last_name,email,phone_number,address,city,country,postal_code,age,gender,registration_date,related_accounts
+20260422000000,Romana,Telesio,agnesialphons@example.org,+39 0731476252,"Rotonda Loredana, 65",Ferentino Stazione,Suriname,83048,49,Other,2013-10-13,7940
+20260422000001,Georg,Thanel,annelenehering@example.com,+49(0)5597776802,Schomberstraße 6,Gütersloh,Kap Verde,69938,44,Male,2025-02-11,
+20260422000002,Angelika,Sporysz,jedrzejjedraszczyk@example.org,+48 501 409 263,pl. Sucharskiego 15,Bielawa,Georgia,16-904,35,Other,2022-06-23,2873
+20260422000003,Cornel,Benz,gasserpascale@example.org,044 612 87 51,Leunbergerstrasse 63,Chêne-Bougeries,Andorra,1493,28,Other,2010-10-19,
+20260422000004,Claire,Paul,margauxlamy@example.net,04 99 33 75 84,"10, boulevard Claude Julien",Petit,Rép. Dém. du Congo,78760,46,Female,2021-06-23,
+20260422000005,Paloma,Collado,melchor82@example.net,+34823 14 02 32,Urbanización de Yéssica Bueno 50,Albacete,Chipre,21081,32,Male,2025-10-22,
+20260422000006,Bernadette,Rieder,neumayerfriedrich@example.com,06209/94302298,Viola-Bayer-Platz 0/7,Marchegg,Malta,3135,45,Female,2011-02-03,
+20260422000007,Käte,Stiebitz,hgeissler@example.com,+49(0)8605120436,Hethurstr. 920,Saarbrücken,Sudan,87952,79,Other,2017-04-09,
+20260422000008,Tom,Rice,ygould@example.com,+44808 1570557,612 Megan Summit,New Elliott,Ireland,N72 5SF,59,Female,2018-11-26,
+20260422000009,Etta,Saragat,mariomontalti@example.net,02071038761,"Via Lina, 654 Piano 7",Torre De' Negri,Porto Rico,43038,80,Female,2012-08-12,"3462,4258"
+20260422000010,Kornel,Szok,karina12@example.net,728 035 597,aleja Turystyczna 20/99,Świecie,Hungary,37-941,64,Female,2015-08-30,"5913,2856,8191"
+20260422000011,Friedrich-Karl,Scheel,george10@example.org,04197 643727,Frida-Gorlitz-Gasse 1181,Arnstadt,Kolumbien,60363,70,Other,2010-11-03,"7225,2120,7142"
+20260422000012,Albrecht,Christoph,aotto@example.net,08470 64930,Sigmar-Rosenow-Ring 55,Passau,Mexiko,28946,42,Male,2010-01-27,2217
+20260422000013,Yasemin,Hentschel,tadler@example.com,+49(0)2340 13642,Iris-Seip-Platz 0,Tuttlingen,St. Vincent und die Grenadinen,84445,29,Other,2012-02-19,"7064,5362"
+20260422000014,Julijana,Höfler,amelia05@example.net,+43 2223 99203 740,Naomi-Reichel-Weg 1/1,Hallein,Bouvetinsel,2199,42,Male,2025-04-08,
+20260422000015,Julianna,Podleśna,szumiecmelania@example.org,+48 32 648 88 54,al. Kaliska 311,Siemianowice Śląskie,Uruguay,28-093,61,Male,2016-03-07,1718
+20260422000016,Gérard,Gilbert,luc30@example.net,+33 (0)4 67 04 92 69,"67, rue Nicole Becker",Pichon-sur-Normand,Réunion (La),52527,52,Other,2013-10-20,"8490,8414,1373"
+20260422000017,Sami,Hänel,vera50@example.org,09388640154,Peggy-Weinhage-Ring 490,Schwarzenberg,Honduras,56942,18,Female,2017-02-15,"3902,3923"
+20260422000018,Narcisa,Barral,zbermudez@example.net,+34 749693969,Pasadizo Amor Roura 5,León,Djibouti,21640,19,Male,2012-01-20,"3633,4839,6528"
+20260422000019,Paweł,Tondera,olgierdoleksa@example.org,536 834 547,plac Szarych Szeregów 16,Mysłowice,Taiwan,05-622,44,Other,2019-10-13,4382
+20260422000020,Erdogan,Stolze,ocarsten@example.com,0020102938,Trubingasse 8-6,Ingolstadt,Gabun,04040,75,Other,2016-06-08,7800
+20260422000021,Paweł,Wrześniak,gpietraszkiewicz@example.net,+48 660 037 857,pl. Tysiąclecia 05/13,Sanok,North Macedonia,64-876,63,Other,2019-09-07,
+20260422000022,Santino,Maderno,gioeletosto@example.com,+39 09258356239,"Stretto Missoni, 6 Piano 0",Perdaxius,Etiopia,35010,78,Female,2018-12-17,7185
+20260422000023,Callum,Clark,rosemary98@example.org,(0161) 4960108,89 Green Heights,South Melissashire,Fiji,W16 3JG,28,Other,2015-03-15,
+20260422000024,Iwo,Dorociak,ewelina33@example.org,22 437 84 67,ul. Widokowa 52,Lublin,Belgium,78-859,77,Female,2021-09-26,
+20260422000025,Ronja,Baumann,hschafer@example.org,031 631 14 66,Islerstrasse 7,Neuenburg,Bouvetinsel,7927,69,Female,2023-01-16,"9004,8196,2981"
+20260422000026,Detlef,Gasser,raquel18@example.net,+41 31 491 20 83,Walterstrasse 69,Rüti,Montenegro,1295,67,Male,2015-12-18,"6310,5326"
+20260422000027,Dominique,Joubert,tcarre@example.net,+33 (0)3 23 10 66 35,"778, boulevard de Hamon",Julien,Micronésie (États fédérés de),39605,29,Female,2022-07-29,
+20260422000028,Loredana,Kuhn,konstantinosblaser@example.com,+41 91 585 67 22,Schwabstrasse 403,Naters,Rumänien,9769,38,Female,2012-07-17,
+20260422000029,Theodor,Koch,kpilz@example.org,+43 (0) 3600 00142560,Hirschstr. 63,Bärnbach,Ägypten,5318,29,Female,2021-06-29,"7055,9568"
+20260422000030,Sylwia,Michnik,jakub15@example.org,+48 32 133 31 39,ulica Opolska 49/14,Katowice,Equatorial Guinea,04-885,79,Male,2024-02-09,"9666,3475"
+20260422000031,Sara,Anders,piekaramichal@example.org,723 975 789,aleja Rajska 988,Sandomierz,Liberia,86-140,62,Female,2026-04-03,
+20260422000032,Urszula,Schlosser,bgrein-groth@example.org,+49(0)4183 29126,Roseallee 169,Freudenstadt,St. Martin,47252,62,Other,2011-06-02,"2520,3844"
+20260422000033,Luna,Haumer,alice13@example.org,+43 215291577001,Seiwaldstr. 7,Deutschlandsberg,Angola,6006,29,Other,2016-11-22,4252
+20260422000034,Théophile,Brunet,garcialouis@example.net,05 81 50 12 56,"7, rue Joseph Fischer",Sainte Michelle,Îles Mineures Éloignées des États-Unis,63400,64,Female,2010-11-06,2933
+20260422000035,Lina,Moschino,xredi@example.org,3793532056,"Via Elmo, 1",Madonna Pozzo Guacito,Andorra,63077,21,Female,2019-11-19,
+20260422000036,Gebhard,Geisler,drosemann@example.net,01302 04662,Cilly-Briemer-Platz 4224,Hohenstein-Ernstthal,Afghanistan,42751,25,Other,2018-11-30,
+20260422000037,Plácido,Alonso,czamora@example.org,+34731581957,Acceso Pío Moraleda 7,Málaga,Kirguistán,44878,53,Other,2013-09-06,"8570,1539"
+20260422000038,Anna,Thompson,jford@example.net,(01632)960800,3 Clarke Club,Justinport,Faroe Islands,G5B 2RQ,23,Female,2025-12-19,9266
+20260422000039,Franco,Lerner,farneseannetta@example.org,01631380996,"Stretto Peano, 0",Querceta,Isole Cook,95034,72,Other,2025-05-08,
+20260422000040,Griselda,Trupiano,oscuromichele@example.net,+39 3793149385,"Rotonda Paolo, 57 Appartamento 8",Graglia,Hong Kong,08024,66,Male,2015-12-26,
+20260422000041,Vincent,Roberts,joeholden@example.com,+44(0)1134960235,0 Sharon Forges,Murrayhaven,Croatia,E0B 0GQ,58,Female,2026-04-09,"1712,4382"
+20260422000042,Jolanda,Bähr,rudolfroehrdanz@example.com,00413 807026,Hannah-Siering-Weg 2202,Rostock,Indonesien,43422,41,Female,2012-09-02,6986
+20260422000043,Adrienne,Clerc,christiane23@example.com,+33 7 71 39 34 58,"38, rue Geneviève Guyon",Cordier,Burundi,24270,47,Female,2022-04-09,8653
+20260422000044,Silja,Christen,bernardchristen@example.net,044 906 50 91,Kernstrasse 75,Amriswil,Britisches Territorium im Indischen Ozean,1476,35,Female,2026-03-02,6807
+20260422000045,Eleonora,Mälzer,hjaehn@example.org,+49(0) 107903899,Stumpfstraße 53-97,Feuchtwangen,Paraguay,87688,78,Male,2016-01-26,"8303,3533,5067"
+20260422000046,Peter,Jungfer,bonbachfrederik@example.net,09657817489,Noackplatz 7-4,Arnstadt,Niger,93765,78,Other,2014-06-17,"5302,7883,7025"
+20260422000047,Gaëlle,Erni,wbaumgartner@example.com,026 117 40 04,Wüthrichstrasse 86,Bülach,Grenada,6955,20,Other,2012-12-25,
+20260422000048,Bianka,Królikiewicz,jankleczar@example.org,602 465 457,ulica Krasińskiego 60,Chełm,Swaziland,38-908,41,Female,2018-08-15,"3819,5194,4018"
+20260422000049,Leona,Kager,schoeberlmario@example.net,05622 34839 736,Pucherweg 2/3,Frohnleiten,Litauen,3450,33,Male,2012-07-17,"8112,7492"
+20260422000050,Reni,Stoll,ernestinejopich@example.org,+49(0) 136853728,Zobelgasse 1591,Cuxhaven,Nauru,63253,42,Male,2025-01-16,9171
+20260422000051,Isaías,Cabello,domingosolano@example.net,+34 852636962,Avenida Maricruz Cabello 727,La Rioja,Zambia,03426,18,Female,2014-03-09,5012
+20260422000052,Urszula,Ehlert,klaus-juergen15@example.org,01819 90084,Cristina-Adler-Ring 4-8,Kamenz,Ruanda,40062,38,Other,2018-11-26,
+20260422000053,Eleanora,Berlusconi,nataliamimun@example.org,076112744,"Contrada Pasqual, 90",Camporeggiano,Isole Cayman,05010,74,Other,2016-07-11,8967
+20260422000054,Marta,Boucsein,fklemm@example.com,03919 971034,Philippe-Schmiedecke-Ring 8940,Waldmünchen,Côte d’Ivoire,23209,57,Other,2011-09-16,"2455,8422,1906"
+20260422000055,Reza,Reuter,hiltraudroehrdanz@example.com,08916 81546,Eric-Schomber-Ring 5,Strausberg,Färöer,12157,80,Male,2017-03-29,5249
+20260422000056,Vanessa,Fox,xjones@example.net,+44909 8790111,Flat 9\nStephen Port,Lewisberg,Belarus,E4 2DL,21,Other,2014-02-12,
+20260422000057,Trevor,Hurst,masonaimee@example.net,+44306 999 0257,Studio 2\nRichards Views,Charlesland,Saudi Arabia,FY7B 0BN,68,Male,2012-04-19,"7042,8908"
+20260422000058,Andrej,Stockhammer,noahrosner@example.com,+43 386807336581,Fercherstraße 0/1,Krems an der Donau,Jamaika,1639,65,Other,2023-12-07,
+20260422000059,Aura,Dalmau,valerovilar@example.org,+34746 74 07 38,Calle Ana Sofía Solera 4 Piso 4 ,Vizcaya,Uzbekistán,05505,60,Male,2014-05-03,3093
+20260422000060,José Ángel,Aroca,palacioslucila@example.org,+34 700 28 37 84,Ronda Augusto Milla 6,Baleares,Ecuador,17540,33,Female,2024-07-01,6562
+20260422000061,Marcel,Niedbał,maurycyfranik@example.com,+48 888 556 004,ulica Rzeczna 08,Oświęcim,CÃ´te d'Ivoire,48-749,27,Male,2021-08-26,"4448,7555,2684"
+20260422000062,Elena,Murcia,rosalindacervera@example.org,+34871661061,Callejón Cristina Bermúdez 30 Puerta 1 ,Huelva,Lesotho,25432,34,Male,2016-04-21,6011
+20260422000063,Esther,Widmer,lluthi@example.org,+41 26 773 11 48,Blumstrasse 98,Burgdorf,Äußeres Ozeanien,1016,63,Male,2013-06-20,"6004,6389"
+20260422000064,Brit,Rörricht,dariusmetz@example.net,+49(0) 869251532,Daria-Köhler-Platz 89,Pirmasens,Äußeres Ozeanien,54041,50,Other,2015-05-17,
+20260422000065,Blerim,Fehr,stutzserkan@example.org,+41 33 748 94 39,Scherrerstrasse 59,Naters,Laos,8801,25,Other,2013-06-16,6584
+20260422000066,Liliane,Fleischmann,sofija64@example.com,(03890) 14510 974,Puchnerweg 9,Bad Hall,Grenada,9597,74,Male,2026-01-14,"2201,4706"
+20260422000067,Diogo,Hartmann,schwabdanny@example.net,+41 34 188 96 32,Ernistrasse 40,Wettingen,Griechenland,2422,26,Female,2013-08-21,4197
+20260422000068,Janick,Graf,catiagasser@example.org,+41 81 684 06 29,Kaiserstrasse 114,Cham,Sonderverwaltungszone Macao,6779,74,Male,2014-03-14,4302
+20260422000069,Elliot,Wilson,mitchell01@example.net,+44113 4960434,936 Reid Crossing,Lake Owen,Netherlands,S71 2DZ,54,Female,2014-12-10,
+20260422000070,Wojciech,Neureuther,hartungkarla@example.net,(00087) 36095,Bärerstraße 5,Wanzleben,Andorra,66825,45,Male,2010-03-09,"2861,9289,1016"
+20260422000071,Helma,Hiller,eckbauerjens@example.net,0914690985,Herwig-Albers-Allee 487,Eberswalde,Iran,94957,50,Female,2017-10-22,9894
+20260422000072,Karl-Ludwig,Schleich,biggenhans-eberhard@example.org,04411890094,Jo-Börner-Straße 6-4,Haldensleben,Jersey,55939,33,Other,2016-06-19,"9960,6790"
+20260422000073,Albert,Geiger,brigittezehnder@example.com,031 334 19 85,Michelstrasse 364,Allschwil,Brunei Darussalam,9331,71,Other,2012-03-01,"7512,9762,7801"
+20260422000074,Marko,Kusch,kunigunde15@example.org,+49(0)6676797899,Reinhold-Löchel-Gasse 9/1,Sankt Goar,Kaimaninseln,65842,51,Other,2017-09-27,"3483,6704,6777"
+20260422000075,Robert,Podsiedlik,cyprian73@example.net,+48 603 849 340,al. Władysława Łokietka 74/95,Ruda Śląska,Jamaica,23-686,46,Male,2025-08-17,"6111,5768"
+20260422000076,Aribert,Sorgatz,thiller@example.net,(05084) 675585,Adriana-Reising-Ring 32/55,Senftenberg,Réunion,53288,45,Other,2016-10-17,"3442,2429"
+20260422000077,Barry,Ball,bethanwilson@example.com,+44(0)131 4960656,Flat 00\nAnna Prairie,Ballstad,Guam,M7 9FL,65,Male,2023-09-10,
+20260422000078,Mario,Urban,fridolin67@example.com,+43 565361901484,Kerstin-Krall-Ring 29,Rattenberg,Amerikanisch-Samoa,1714,43,Male,2017-05-30,
+20260422000079,Adelina,Ringhofer,albrechtnela@example.org,+43 3628 03504 549,Weißring 560,Rust,Jordanien,7313,76,Other,2018-12-04,"7824,1823"
+20260422000080,Jana,Kiss,koppmartin@example.net,+43 562472141425,Emilian-Weissenböck-Ring 5,Lienz,St. Helena,7722,37,Female,2023-09-29,"8132,6704,3064"
+20260422000081,Édouard,Dos Santos,erichuet@example.com,05 94 48 73 69,"39, rue Seguin",Fabre-sur-Neveu,El Salvador,37124,42,Female,2015-05-23,"6067,6536,3807"
+20260422000082,Nicole,Salmon,antoinegauthier@example.net,0695813593,"23, boulevard de Navarro",Sainte Thomas-la-Forêt,Mayotte,20597,46,Male,2019-10-08,"5684,2014"
+20260422000083,Florentin,Reiner,friedrichschrammel@example.net,+43 3537 98828 510,Martha-Feichtenschlager-Platz 059,Marchegg,Philippinen,7838,65,Other,2014-11-04,"6281,6167"
+20260422000084,Alina,Turati,flaviomarazzi@example.org,+39 0322479880,"Incrocio Tremonti, 92",Magnano,Lituania,40141,18,Male,2024-06-06,
+20260422000085,Gabriel,Siegrist,marvin58@example.com,026 802 66 92,Hermannstrasse 2,Horgen,Barbados,6163,28,Male,2020-08-13,
+20260422000086,Georgina,Davies,martynnewman@example.net,+44(0)909 879 0116,Studio 7\nBarry Landing,Woodton,United Arab Emirates,HA9X 7YB,53,Female,2015-12-23,1766
+20260422000087,Emanuela,Grabner,marissakreiner@example.net,+43 387513619147,Wögerbauergasse 70,Neulengbach,Saudi-Arabien,8946,71,Male,2017-07-24,"2473,6191"
+20260422000088,Ciro,Oliboni,amandaoffredi@example.org,+39 3558689911,"Contrada Silvio, 36 Appartamento 7",Nuraminis,Sant'Elena,95024,40,Other,2024-04-01,
+20260422000089,Carol,Wilson,ashleigh48@example.org,+44(0)28 9018532,Flat 6\nAtkinson Trail,Pearsonton,Tuvalu,IM2W 7TR,18,Male,2014-03-25,
+20260422000090,Martina,Prado,vargasisabela@example.org,+34902 99 59 42,Urbanización de Felicia Montserrat 95 Apt. 51 ,Cantabria,México,13147,48,Female,2023-10-25,
+20260422000091,Gabriel,Laguna,tenajose@example.com,+34845829715,Vial de Agustina Milla 52,Guipúzcoa,Zambia,23678,24,Other,2026-01-27,6053
+20260422000092,Sylvie,Johann,ernestine29@example.net,+49(0)3668 040246,Bolnbachallee 8-4,Meiningen,Salomonen,99637,18,Male,2011-10-31,"2424,2991,4843"
+20260422000093,Adolfo,Reguera,vcampillo@example.net,+34 944 314 814,Via de Adalberto Cuevas 90 Piso 2 ,Ávila,Tonga,17277,30,Female,2016-04-28,
+20260422000094,Isaac,Moulin,dfernandes@example.com,+33 1 39 01 44 17,"70, rue Jacquot",Paul,Cayman (Îles),22138,24,Female,2019-09-14,
+20260422000095,Eusebio,Chacón,edgardogalindo@example.com,+34871 67 98 84,Plaza Ignacio Mancebo 60,Sevilla,India,47770,46,Male,2016-12-08,"3253,3591"
+20260422000096,Sonia,Łuczka,kopytofabian@example.net,+48 32 768 17 24,al. Krokusowa 07,Ostróda,Haiti,75-834,21,Other,2022-11-25,"2950,7837,8049"
+20260422000097,Priska,Mentzel,kreuseljanko@example.org,+49(0)0070098303,Rocco-Misicher-Allee 7-3,Euskirchen,Mongolei,42123,74,Male,2013-07-14,
+20260422000098,Roberta,Ferrándiz,calistacastaneda@example.com,+34 981 655 047,Via de Rodolfo Abascal 68,Navarra,Bhután,51359,53,Other,2025-03-30,8560
+20260422000099,Matthias,Hermann,btschentscher@example.com,+49(0)0192 80727,Hartmuth-Stey-Ring 7/2,Borken,Bahamas,47353,34,Female,2014-01-03,
+20260422000100,Julian,Gąszczak,kamila21@example.com,579 370 037,plac Powstańców 622,Śrem,Malaysia,94-910,53,Other,2019-12-03,8622

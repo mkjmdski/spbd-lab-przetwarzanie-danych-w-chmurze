@@ -19,14 +19,14 @@ sources:
 
 
 models:
-  - name: stg_books
-    description: "Model stagingowy dla książek."
-    columns:
-      - name: index
-        description: "Unikalny identyfikator książki."
-        tests:
-          - unique
-          - not_null
+  # - name: stg_books
+  #   description: "Model stagingowy dla książek."
+  #   columns:
+  #     - name: index
+  #       description: "Unikalny identyfikator książki."
+  #       tests:
+  #         - unique
+  #         - not_null
 
   - name: stg_customers
     description: "Model stagingowy dla klientów."
